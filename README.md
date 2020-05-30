@@ -8,3 +8,9 @@ This is implemented following Jon's stream. Run
 ```rust
 cargo r --example hashmap_demo
 ```
+
+HashSet:
+Simplified version that uses `std::collections::hash_map::DefaultHasher` for hashing key. Standard Hashset implementations internally use HashMap but I decided to implement everything from stratch
+```rust
+cargo r --example hashset_demo
+```

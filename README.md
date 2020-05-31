@@ -14,3 +14,9 @@ Simplified version that uses `std::collections::hash_map::DefaultHasher` for has
 ```rust
 cargo r --example hashset_demo
 ```
+
+LinkedList:
+I wanted to use same struct signature as collections crate implementation. This taught me a lot on dealing with Box type and raw pointers. Also added implementation for Display trait for LinkedList. To run this lib we need nightly build features.
+```rust
+cargo +nightly r --example linkedlist_demo
+```
